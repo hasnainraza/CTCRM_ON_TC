@@ -50,5 +50,12 @@ namespace CTCRM_ON_TC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void MyTest()
+        {
+            string name = "muhammad hasnain";
+            Assert.IsNull(name);
+        }
     }
 }
