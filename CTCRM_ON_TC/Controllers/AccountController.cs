@@ -32,7 +32,7 @@ namespace CTCRM_ON_TC.Controllers
         {
             get
             {
-                return _asignInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
+                return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
             private set 
             { 
